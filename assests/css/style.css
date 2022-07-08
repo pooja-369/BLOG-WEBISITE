@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #100821;
+}
+
 :root {
     --container-color: #1a1e21;
     --second-color: #fd8f44;
@@ -87,7 +91,7 @@ header.shadow .logo {
     text-transform: uppercase;
     font-weight: 500;
     background: var(--second-color);
-    border: 4px;
+    border-radius: 64px;
     color: var(--bg-color);
 }
 
@@ -101,8 +105,9 @@ header.shadow .logo {
 
 .home {
     width: 100%;
-    min-height: 440px;
-    background: var(--container-color);
+    min-height: 500px;
+    /* background: var(--container-color); */
+    background: linear-gradient(175.7deg, #8b3b7a 19.76%, #462d7c 40.43%, #090413 87.38%);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -118,7 +123,7 @@ header.shadow .logo {
 }
 
 .home-subtitle {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
@@ -130,7 +135,9 @@ header.shadow .logo {
     justify-content: center;
     align-items: center;
     column-gap: 1.5rem;
-    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    margin-top: -9rem !important;
+    color: white;
 }
 
 .filter-items {
@@ -150,10 +157,11 @@ header.shadow .logo {
 /* POSTS */
 
 .post {
+    font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     justify-content: center;
-    gap: 1.5rem;
+    gap: 2.5rem;
 }
 
 .post-box {
@@ -161,7 +169,11 @@ header.shadow .logo {
     box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
     padding: 15px;
     border-radius: 0.5rem;
-    width: 350px;
+}
+
+.post-box:hover {
+    box-shadow: 12px 12px 20px #8b3b7a;
+    transition: 0.3s;
 }
 
 .post-img {
@@ -231,6 +243,7 @@ header.shadow .logo {
 /* footer  */
 
 .footer {
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -245,10 +258,88 @@ header.shadow .logo {
 
 .social .bx {
     font-size: 1.4rem;
-    color: var(--text-color);
+    color: var(--bg-color);
 }
 
 .social .bx:hover {
     color: var(--second-color);
     transition: 0.3s all linear;
+}
+
+
+/* post page styling */
+
+.post-header {
+    width: 100%;
+    height: 500px;
+    /* background: var(--container-color); */
+    background: linear-gradient(175.7deg, #8b3b7a 19.76%, #462d7c 40.43%, #090413 87.38%);
+}
+
+.post-container {
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem !important;
+}
+
+.back-home {
+    color: white;
+    font-size: 1.3rem;
+    margin: 18px;
+}
+
+.header-title {
+    font-family: 'Ubuntu', sans-serif;
+    width: 90%;
+    font-size: 2.6rem;
+    color: var(--bg-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.header-img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    border: 2px solid white;
+    box-shadow: 0 4px 14px hsl(355deg 25% 15% / 40%);
+}
+
+.post-content {
+    margin-top: 10rem !important;
+}
+
+.sub-heading {
+    color: white;
+}
+
+.post-text {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+
+/* share */
+
+.share {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.share-title {
+    font-size: 1.1rem;
 }
