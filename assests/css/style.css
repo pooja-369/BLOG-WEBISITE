@@ -11,7 +11,7 @@
 }
 
 body {
-    background: #100821;
+    /* background: #100821; */
 }
 
 :root {
@@ -52,6 +52,7 @@ section {
 /* ***********************header*********************** */
 
 header {
+    background: #8b3b7a;
     position: fixed;
     top: 0;
     left: 0;
@@ -107,7 +108,7 @@ header.shadow .logo {
     width: 100%;
     min-height: 500px;
     /* background: var(--container-color); */
-    background: linear-gradient(175.7deg, #8b3b7a 19.76%, #462d7c 40.43%, #090413 87.38%);
+    background: linear-gradient(179.7deg, #8b3b7a 19.76%, #462d7c 40.43%, #090413 87.38%);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -138,6 +139,7 @@ header.shadow .logo {
     margin-bottom: 2rem !important;
     margin-top: -9rem !important;
     color: white;
+    /* color: #000; */
 }
 
 .filter-items {
@@ -172,7 +174,7 @@ header.shadow .logo {
 }
 
 .post-box:hover {
-    box-shadow: 12px 12px 20px #8b3b7a;
+    box-shadow: 12px 12px 20px #1f0c1a;
     transition: 0.3s;
 }
 
@@ -243,7 +245,8 @@ header.shadow .logo {
 /* footer  */
 
 .footer {
-    color: white;
+    /* color: white; */
+    /* background: #000; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -258,7 +261,7 @@ header.shadow .logo {
 
 .social .bx {
     font-size: 1.4rem;
-    color: var(--bg-color);
+    color: var(--second-color);
 }
 
 .social .bx:hover {
@@ -319,11 +322,11 @@ header.shadow .logo {
 }
 
 .sub-heading {
-    color: white;
+    /* color: white; */
 }
 
 .post-text {
-    color: white;
+    /* color: white; */
     font-size: 1rem;
     line-height: 1.7rem;
     margin: 1rem 0;
