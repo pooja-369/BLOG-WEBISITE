@@ -129,7 +129,7 @@ header.shadow .logo {
 }
 
 
-/* post filter */
+/********************** post filter****************************** */
 
 .post-filter {
     display: flex;
@@ -156,7 +156,7 @@ header.shadow .logo {
 }
 
 
-/* POSTS */
+/* ***********************POSTS ************************************/
 
 .post {
     font-family: 'Poppins', sans-serif;
@@ -242,7 +242,7 @@ header.shadow .logo {
 }
 
 
-/* footer  */
+/* *********************** footer *****************************  */
 
 .footer {
     /* color: white; */
@@ -270,7 +270,7 @@ header.shadow .logo {
 }
 
 
-/* post page styling */
+/************************ post page styling *************************/
 
 .post-header {
     width: 100%;
@@ -321,10 +321,6 @@ header.shadow .logo {
     margin-top: 10rem !important;
 }
 
-.sub-heading {
-    /* color: white; */
-}
-
 .post-text {
     /* color: white; */
     font-size: 1rem;
@@ -334,7 +330,7 @@ header.shadow .logo {
 }
 
 
-/* share */
+/* **********************share**************************** */
 
 .share {
     display: flex;
