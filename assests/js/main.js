@@ -20,3 +20,14 @@ let header = document.querySelector('header')
 window.addEventListener('scroll', () => {
     header.classList.toggle('shadow', window.scrollY > 0);
 });
+
+// login button 
+// var form = document.getElementsByClassName("form");
+// var button = document.getElementsByClassName("login");
+// button.onclick = function() {
+//     if (form.addClass == "open") {
+//         form.className == "";
+//     } else {
+//         form.addClass = "open";
+//     }
+// };
