@@ -85,7 +85,9 @@ button {
 .social div:hover {
     background-color: rgba(255, 255, 255, 0.47);
 }
-
+.navbar {
+    display:inline-block;
+}
 .social .fb {
     margin-left: 25px;
 }

@@ -69,12 +69,26 @@ header.shadow {
 header.shadow .logo {
     color: var(--text-color);
 }
+header.shadow .navbar a{
+color:var(--text-color);
+font-weight: 600;
+}
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 18px 0;
+}
+
+.nav .navbar-items {
+    display: flex;
+    justify-content: space-between;
+}
+.nav .navbar-items a{
+    color:var(--bg-color);
+    padding: 20px;
+    font-weight: 500;
 }
 
 .logo {
@@ -241,7 +255,99 @@ header.shadow .logo {
     font-weight: 500;
 }
 
+/* ******************** BLOG SECTION  ***********************/
 
+.blog{
+    margin-top: 8rem;
+}
+.blog .side-content{
+    display: grid;
+    grid-template-columns: 65% 40%;
+}
+.posts .post-content {
+    margin-bottom: 5rem;
+    margin-top: 10px !important;
+}
+ .post-image img{
+    height: 70vh;
+    border-radius: 25px;
+    object-fit: cover;
+    box-shadow: 0 14px 14px rgba(29, 23, 23, 0.5);
+}
+
+.posts .post-content .post-info {
+    justify-content: space-evenly;
+    padding: 10px 28px 10px;
+    margin-top: -35px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    background: rgb(189, 189, 220);
+}
+
+.post_title{
+    margin-top: 2rem;
+}
+
+.post_title p{
+    margin-bottom: 1.5rem;
+}
+ .btn{
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(79.7deg, #8b3b7a , #462d7c );
+    padding: 10px 28px 10px;
+}
+
+/* **************sidebar******************  */
+.sidebar{
+    padding-left: 30px;
+    margin-top: 3.5rem;
+}
+
+.sidebar h2{
+  /* text-align: center; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+
+}
+
+.category-list{
+    margin-left: 17px;
+    width: 70%;
+}
+
+.category-list li{
+    background: linear-gradient(79.7deg, #8b3b7a , #462d7c );
+    margin: 10px;
+    padding: 10px 28px 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.post-side-content{
+    margin-top: 1.5rem !important;
+}
+
+
+/* **************newsletter******************  */
+.newsletter,.popular-post{
+    margin-top: 3rem;
+    
+}
+.email{
+    margin: 18px 30px 8px 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
 /* *********************** footer *****************************  */
 
 .footer {
