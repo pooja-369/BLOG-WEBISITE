@@ -10,10 +10,6 @@
     box-sizing: border-box;
 }
 
-body {
-    /* background: #100821; */
-}
-
 :root {
     --container-color: #1a1e21;
     --second-color: #fd8f44;
