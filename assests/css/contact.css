@@ -1,0 +1,48 @@
+.cards{
+}
+
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 135px 0px 10px;
+    font: 300 60px 'Oswald', sans-serif;
+    /* color: #fff; */
+    text-transform: uppercase;
+    letter-spacing: 6px;
+  }
+
+.card-section{
+    height: 500px;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+    column-gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 1178px;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: 0 4px 14px hsl(355deg 25% 15% / 40%);
+    max-width: 800px;
+    margin: auto;
+}
+
+.card-icon ,.card-info{
+    text-align: center;
+    margin: 12px;
+}
+.card-icon img{
+    height: 80px;
+    width: 100px;
+
+}
+
+
+/* contact form  */
