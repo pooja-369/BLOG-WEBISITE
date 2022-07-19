@@ -4,11 +4,11 @@
     height: 520px;
     width: 400px;
     /* background-color: black; */
-    position: absolute;
-    display: block;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    /* position: absolute; */
+    /* display: block; */
+    /* transform: translate(-50%, -50%); */
+    /* top: 50%; */
+    /* left: 50%; */
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.1);
@@ -107,4 +107,26 @@ button {
     max-width: 800px;
     margin: auto;
     width: 100%;
+}
+
+.login-content {
+    /* height: 400px; */
+    flex-wrap: wrap;
+    background: #000;
+    /* row-gap: 11rem; */
+    column-gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-around;
+    margin: 0 auto;
+    border-radius: 15px;
+    /* position: relative; */
+    /* max-width: 978px; */
+}
+
+.contact-content img{
+    height: 520px;
+    width: 400px;
+    border-radius: 10px;
 }
